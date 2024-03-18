@@ -63,6 +63,68 @@ Furthermore, the interpretability of CNNs allows for insightful analysis of the 
 
 In summary, the combination of TensorFlow, Keras, and CNNs represents a potent arsenal for stroke detection, offering both exceptional precision and interpretability. By harnessing the power of deep learning and medical imaging analysis, healthcare professionals can leverage these tools to enhance diagnostic accuracy and improve patient outcomes in stroke management.
 
+A simplified diagram illustrating the basic architecture of each algorithm:
+
+1. Logistic Regression:
+
+
+                 Features
+                    |
+                    v
+               Linear Model
+                    |
+                    v
+           Sigmoid Function
+                    |
+                    v
+            Probability Output
+
+
+2. Random Forest:
+
+
+                 Features
+                    |
+                    v
+               Decision Tree 1
+                    |
+                    v
+               Decision Tree 2
+                    |
+                    v
+                   ...
+                    |
+                    v
+               Decision Tree N
+                    |
+                    v
+            Ensemble Decision
+               (e.g., Voting)
+
+
+3. Convolutional Neural Networks (CNNs):
+
+
+                 Input Image
+                    |
+                 Convolutional
+                 Layers (e.g.,
+              feature extraction)
+                    |
+                    v
+                  Pooling
+                 Layers (e.g.,
+                  downsampling)
+                    |
+                    v
+             Fully Connected
+                Layers (e.g.,
+             classification task)
+                    |
+                    v
+               Output Layer
+               (e.g., softmax
+              for probability)
 
 
 Implementing the Algorithm Using Python Code
